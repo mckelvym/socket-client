@@ -7,6 +7,7 @@
 #include <csignal>
 #include <unistd.h>
 #include "config.H"
+#include <libgen.h>
 
 using namespace std;
 
@@ -183,4 +184,3 @@ void message (string type, string str)
 			 str.c_str ());
 	}
 }
-

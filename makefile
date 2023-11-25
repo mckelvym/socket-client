@@ -6,7 +6,7 @@ CC=g++
 CPPPLAGS+=-Wall -Werror -g
 CPPFLAGS+=-I/usr/include
 CPPFLAGS+=-L/usr/lib
-LDFLAGS= -lnsl
+LDFLAGS= #-lnsl
 
 SOURCES=$(wildcard *.C)
 OBJECTS=$(SOURCES:.C=.o)
